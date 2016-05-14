@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding: 0; margin: 0;}
+
+.nav{
+	width: 1180px;
+	height: 20px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.p_nav{
+	padding-right: 10px;
+	text-align: right;
+}
+
+.a_username{
+	color: red;
+	text-decoration: none;
+	margin-right: 4px;
+}
+
+.headerWrap{
+	height: 60px;
+	background: #3C85CA;
+	color: white;
+}
+
+.headerBox{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.headerTitle{
+	float: left;
+	font-size: 20px;
+	padding: 20px 0px 0px 10px;
+}
+.header_op{
+	padding: 20px 20px 0px 0px;
+	float:right;
+}
+.header_op a{
+	text-decoration: none;
+	color: white;
+}
+
+.imageWrap{
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.imageBox{
+	margin-left: -20px;
+}
+
+.ul_imgs{
+	
+}
+
+.li_img{
+	list-style: none;
+	width: 280px;
+	height: 240px;
+	float: left;
+	padding: 20px 0px 20px 20px;
+}
+
+.container{
+	width: 280px;
+	height: 240px;
+	/*overflow: hidden;*/
+}
+
+.img{
+	width: 280px;
+	height: 200px;
+	border: 0;
+}
+
+.titleWrap{
+	height: 40px;
+	background: #F2F2F2;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+/*.p_imgTitle{
+	padding: 2px;
+}
+.p_desc{
+	padding: 2px;
+}*/

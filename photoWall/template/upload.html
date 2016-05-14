@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <html >
+ <head>
+ 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+ 	<title>上传文件</title>
+ 	<script type="text/javascript" src="./template/js/jquery-1.7.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./template/css/upload.css"/>
+	<script type="text/javascript">
+		$(function(){ 
+			$('h3 span').click(function(){
+				var a = $('ul li').eq(0).clone();
+				$('ul').append(a);
+			})
+			
+		})
+	</script>
+ </head>
+ <body>
+ 	<div class="box">
+ 		<h3>请选择要上传的文件<span style="float: right;cursor: pointer;">添加上传</span></h1>
+ 		<form action="" method="post" enctype="multipart/form-data">
+	 		<div class="div_files">	
+		 		<ul>
+		 			<li class="li_file">
+		 				<span class="sp_num">文件：</span>
+		 				<input type="file" class="upfile" name="up[]"/>
+		 			</li>
+
+		 		</ul>
+	
+	 		</div>	
+ 		<div class="btn_wrap">
+ 			<input class="btn" type="submit" value="上传" />
+ 		</div>
+ 		</form>
+ 	</div>
+ </body>
+ </html>

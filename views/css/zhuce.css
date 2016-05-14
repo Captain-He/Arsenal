@@ -1,0 +1,57 @@
+.body
+	{
+		width:600px;
+		height:360px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px blue solid;
+		position: relative;
+		top:60px;
+
+
+	}
+	form
+	{
+		width:500px;
+		height:200px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		<!--border:1px red solid;-->
+	}
+#image
+	{
+		width:200px;
+		height:80px;
+		margin-top:30px;
+		margin-left:auto;
+		margin-right:auto;
+		<!--border:1px red solid;-->
+	}
+.headerWrap{
+	height: 60px;
+	background: #3C85CA;
+	color: white;
+}
+
+.headerBox{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.headerTitle{
+	float: left;
+	font-size: 17px;
+	padding: 20px 0px 0px 10px;
+}
+.header_op{
+	padding: 20px 20px 0px 0px;
+	float:right;
+}
+.header_op a{
+	text-decoration: none;
+	color: white;
+}
+.table{
+	height = 90;
+}

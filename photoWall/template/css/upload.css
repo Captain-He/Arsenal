@@ -1,0 +1,71 @@
+		*{margin: 0; padding: 0;}
+		.box{
+			width: 600px;
+			overflow: hidden;
+			margin: 0 auto;
+			margin-top: 80px;
+			/*background: blue;*/
+			border: 1px solid #ccc;
+			box-shadow: 0px 0px 2px 2px #ccc;
+		}
+		h3{
+			height: 50px;
+			border-bottom: 2px solid #ccc;
+			font-size: 20px;
+			font-style: normal;
+			line-height: 50px;
+			font-weight: 400;
+			color: #3C85CA;
+			padding-left: 10px;
+			padding-top: 10px;
+		}
+		.div_files{
+			height: 200px;
+			overflow: auto;
+		}
+		ul{
+			/*height: 250px;*/
+			border-bottom: 1px solid #ccc;
+			/*padding-left: 10px;*/
+			/*padding-top: 10px;*/
+		}
+		.li_file{
+			height: 50px;
+			border-bottom: 1px solid rgb(240,240,240);
+			list-style: none;
+			line-height: 50px;
+			padding-left: 10px;
+			padding-top: 10px;
+		}
+		.upfile{
+			width: 500px;
+			height: 30px;
+			line-height: 30px;
+			cursor: pointer;
+			/*background: #3C85CA;*/
+			color: #3C85CA;
+			border-radius: 3px;
+			font-size: 14px;
+		}
+		.btn_wrap{
+			padding-top: 30px;
+			text-align: center;
+		}
+		.btn{
+			width: 200px;
+			height: 30px;
+			line-height: 30px;
+			cursor: pointer;
+			background: #3C85CA;
+			color: #fff;
+			border-radius: 3px;
+			font-size: 14px;
+			border: 0;			
+		}
+		.sp_num{
+			display: inline-block;
+			width: 80px;
+		}
+		.li_addFile{
+			background: #fff;
+		}

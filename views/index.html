@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="Keywords" content="">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script language = "javascript"><!--使用js验证-->
+	function Checked()
+	{
+		if(myform.email.value == "")//如果Email为空
+		{
+			alert("您还没有填写登录邮箱！");
+			myform.email.focus();
+			return false;
+		}
+		if(myform.psd.value == "")//如果密码为空
+		{
+			alert("您忘记填写密码了！");
+			myform.psd.focus();
+			return false;
+		}
+	}
+</script>
+<head>
+<title>PHP注册与登录程序</title>
+</head>
+<body>
+<div class="headerWrap" style="margin-top: 20px;">
+		<div class="headerBox">
+			<p class="headerTitle">照片墙</p>
+			<p class="header_op">
+			<a href="index.php?a=upload">QQ登陆</a>
+		</p>
+	</div>
+</div>
+<div class="body">
+	<div id = "image"><center><img src = "header.png" /></center></div><br /><!--图片logo-->
+	<center>
+	<!--登录表单-->
+	<form action = "denglucheck.php" method = "post" name = "myform" onsubmit = "return Checked();">
+		<table>
+  			<tr>
+				<td>Email:</td>
+				<td><input type = "email" name = "email" /></td>
+			</tr>
+			<tr>
+				<td>密码:</td>
+				<td><input type = "password" name = "psd" /></td>
+			</tr>
+			<tr>
+				<td><input type = "submit" name = "denglu" value = "登录" /></td>
+				<td><a href = "zhuce.html">注册</a></td>
+			</tr>
+		</table>
+	</form>
+	<!--登录表单结束-->
+	</center>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
