@@ -3,7 +3,7 @@
 	$name = $_POST[cityname];
 	
     $ch = curl_init();
-    $url = $url = "http://apis.baidu.com/apistore/weatherservice/cityname?cityname=".$name;
+     $url = "http://apis.baidu.com/apistore/weatherservice/cityname?cityname=".$name;
     $header = array(
         'apikey:59cea956bc89f0429cc0b331b4e9f12d',
     );
